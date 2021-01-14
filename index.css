@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(19, 17, 17, 0.986);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  box-shadow: 0 0 1rem rgb(0, 0, 0);
+  background-color: rgba(31, 27, 27, 0.986);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 85%;
+  margin: 7rem 5rem;
+  color: white;
+  padding: 3rem 6rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1.5rem;
+}
+
+.portf a {
+  color: White;
+}
+a {
+  text-decoration: none;
+  color: rgba(221, 221, 221, 0.911);
+  margin-left: 5rem;
+}
+
+nav i {
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.6rem;
+  margin: 0 4rem;
+  margin-top: 0.5rem;
+}
+
+.navgauche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7rem;
+}
+.centre h1 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  padding-left: 2rem;
+}
+
+.centre i {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.bas {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 3rem;
+}

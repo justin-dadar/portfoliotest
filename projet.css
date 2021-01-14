@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: rgba(31, 27, 27, 0.986);
+  box-shadow: 0 0 1rem rgb(128, 128, 128);
+
+  margin: 7rem 5rem;
+
+  padding: 3rem 6rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 2rem;
+}
+
+nav {
+  margin-right: 2rem;
+}
+
+div img {
+  max-height: 100%;
+  display: flex;
+  height: 100%;
+  height: 30rem;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+}
+
+.projet {
+  margin: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-bottom: 3rem;
+  width: 100%;
+  height: 50%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.imgprojet div {
+  display: flex;
+  position: relative;
+}
+.imgprojet p {
+  max-height: 30%;
+  max-width: 30%;
+  position: absolute;
+}
+.pj1 {
+  right: 57px;
+  bottom: 325px;
+  background: white;
+  color: black;
+  box-shadow: 0 0 1rem rgb(0, 0, 0);
+}
+.pj2 {
+  right: 79px;
+  top: 65px;
+  background: white;
+  color: black;
+  box-shadow: 0 0 1rem rgb(0, 0, 0);
+}
+.pj3 {
+  right: 230px;
+  bottom: -52px;
+  color: white;
+  background: rgba(34, 6, 2, 0.774);
+  box-shadow: 0 0 1rem rgb(131, 39, 2);
+}
